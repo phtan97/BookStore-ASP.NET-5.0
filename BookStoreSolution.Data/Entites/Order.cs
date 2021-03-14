@@ -17,6 +17,6 @@ namespace BookStoreSolution.Data.Entites
         public OrderStatus Status { set; get; }
 
         public List<OrderDetail> OrderDetails { get; set; }
-        //public AppUser AppUser { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }
