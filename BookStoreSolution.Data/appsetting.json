@@ -1,5 +1,5 @@
 {
   "ConnectionStrings": {
-    "BookStoreSolutionDb": "Server=DELL\\SQLEXPRESS;Database=BookStoreSolution;Trusted_Connection=True;"
+    "BookStoreSolutionDb": "Server=DELL;Database=BookStoreSolution;Trusted_Connection=True;"
   }
 }

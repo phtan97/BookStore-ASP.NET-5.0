@@ -14,7 +14,7 @@ namespace BookStoreSolution.Data.EF
         {
             IConfigurationRoot configuration = new ConfigurationBuilder()
                .SetBasePath(Directory.GetCurrentDirectory())
-               .AddJsonFile("appsettings.json")
+               .AddJsonFile("appsetting.json")
                .Build();
 
             var connectionString = configuration.GetConnectionString("BookStoreSolutionDb");
